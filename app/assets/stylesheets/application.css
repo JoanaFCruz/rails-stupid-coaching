@@ -13,3 +13,32 @@
  *= require_tree .
  *= require_self
  */
+
+
+ .btn-blue {
+  background: #337AB7;
+  color: white !important;
+  font-weight: bold;
+  border: none;
+  padding: 15px;
+  border-radius: 0px 5px 5px 0px;
+ }
+
+ .box-white {
+  padding: 10px 20px;
+  border-left: 7px solid #DDDDDD;
+  margin-bottom: 30px;
+  margin-top: 30px;
+ }
+
+ .box-yellow {
+  background: #FFFFE1;
+  padding: 10px 20px;
+  border-left: 7px solid #DDDDDD;
+  margin-bottom: 30px;
+ }
+
+ .link {
+  text-decoration: none;
+  color: #337AB7;
+ }

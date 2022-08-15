@@ -1,0 +1,11 @@
+<div class="box-white">
+  <%= @question %>
+  <p class="mt-3 mb-0"> - You </p>
+</div>
+
+<div class="box-yellow">
+  <strong><%= @answer %></strong>
+  <p class="mt-3 mb-0"> - Your coach </p>
+</div>
+
+<%= link_to "Ask a new question", ask_path, class: "link" %>
